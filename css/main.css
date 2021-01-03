@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/gilroy-light.eot");
+  src: local("gilroy-light"), url("./fonts/gilroy-light.woff") format("woff");
+}
+@font-face {
+  font-family: "gilroy";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./fonts/gilroy-regular.eot");
+  src: local("gilroy-regular"),
+    url("./fonts/gilroy-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/gilroy-medium.eot");
+  src: local("gilroy-medium"), url("./fonts/gilroy-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/gilroy-bold.eot");
+  src: local("gilroy-bold"), url("./fonts/gilroy-bold.woff") format("woff");
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -8,6 +41,9 @@ img {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.page-logo {
+  width: 40px;
 }
 @media screen and (min-width: 576px) {
   .container {
@@ -36,19 +72,19 @@ img {
   .main-nav {
     display: flex;
   }
-  .main.nav_list {
+  .main.nav-list {
     display: flex;
     margin: 0;
     padding: 0;
   }
 }
-.main-nav_list {
+.main-nav-list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.main-nav_link {
+.main-nav-link {
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -66,6 +102,7 @@ img {
 .page-header {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: #fafafa;
 }
 @media screen and (min-width: 576px) {
   .hero-flex {
