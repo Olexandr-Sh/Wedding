@@ -1,14 +1,29 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  font-family: "Gilroy", sans-serif;
+}
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url("../fonts-gilroy/gilroy-light.eot");
-  src: local("gilroy-light"),
-    url("../fonts-gilroy/gilroy-light.woff") format("woff");
+  src: url("../fonts-gilroy/gilroy-light.woff") format("woff");
 }
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -17,7 +32,7 @@
     url("../fonts-gilroy/gilroy-regular.woff") format("woff");
 }
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -26,7 +41,7 @@
     url("../fonts-gilroy/gilroy-medium.woff") format("woff");
 }
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -45,9 +60,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.page-logo {
-  width: 40px;
-}
+
 @media screen and (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -81,18 +94,54 @@ img {
     padding: 0;
   }
 }
+.page-logo {
+  width: 40px;
+}
 .main-nav-list {
-  font-family: ;
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+.main-nav-list-item {
+  padding-right: 32px;
+}
+.main-nav-list-item:last-child {
+  padding-right: 0;
+}
 .main-nav-link {
   display: inline-block;
-  color: black;
+  color: #000;
   text-decoration: none;
-  padding-right: 10px;
+  line-height: 22px;
+  font-size: 18px;
+}
+.nav-btn {
+  font-size: 18px;
+  line-height: 22px;
+  color: #f7941e;
+  background: #fafafa;
+  padding: 12px 23px;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  color: #fff;
+  background: #f7941e;
+  box-shadow: 0 0 8px #f5a84a;
+}
+.nav-btn:focus {
+  color: #fff;
+  background: #f7941e;
+  box-shadow: 0 0 8px #f5a84a;
+}
+.nav-btn:active {
+  color: #fff;
+  background: #f7941e;
+  opacity: 0.5;
 }
 .header-flex {
   display: flex;
@@ -125,6 +174,7 @@ img {
   padding-bottom: 76px;
 }
 .main-title {
+  font-weight: 700;
   font-size: 32px;
 }
 @media screen and (min-width: 768px) {
