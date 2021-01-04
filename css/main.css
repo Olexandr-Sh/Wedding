@@ -60,7 +60,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 @media screen and (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -81,8 +80,46 @@ img {
     max-width: 1200px;
   }
 }
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-logo {
+  width: 40px;
+}
+@media screen and (min-width: 320px) {
+  .page-logo {
+    width: 60px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .page-logo {
+    width: 40px;
+  }
+}
 .main-nav {
   display: none;
+}
+.main-nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav-list-item {
+  padding-right: 12px;
+}
+.main-nav-list-item:last-child {
+  padding-right: 0;
+}
+.main-nav-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 4px 10px;
+  line-height: 22px;
+  font-size: 18px;
 }
 @media screen and (min-width: 576px) {
   .main-nav {
@@ -93,35 +130,26 @@ img {
     margin: 0;
     padding: 0;
   }
+  .main-nav-link {
+    font-size: 14px;
+  }
 }
-.page-logo {
-  width: 40px;
+@media screen and (min-width: 992px) {
+  .main-nav-link {
+    font-size: 16px;
+  }
 }
-.main-nav-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.main-nav-list-item {
-  padding-right: 32px;
-}
-.main-nav-list-item:last-child {
-  padding-right: 0;
-}
-.main-nav-link {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  line-height: 22px;
-  font-size: 18px;
+@media screen and (min-width: 1280px) {
+  .main-nav-link {
+    font-size: 18px;
+  }
 }
 .nav-btn {
   font-size: 18px;
   line-height: 22px;
   color: #f7941e;
   background: #fafafa;
-  padding: 12px 23px;
+  padding: 12px 22px;
   border: 1px solid #f7941e;
   box-sizing: border-box;
   border-radius: 5px;
@@ -143,10 +171,29 @@ img {
   background: #f7941e;
   opacity: 0.5;
 }
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 576px) {
+  .nav-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .nav-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .nav-btn {
+    font-size: 18px;
+    padding: 12px 22px;
+  }
+}
+.hero-section {
+  background: #f1f1f2;
+  color: #000;
+  padding-top: 70px;
+  padding-bottom: 76px;
 }
 .hero-flex {
   display: flex;
@@ -168,10 +215,6 @@ img {
 .d-flex {
   display: flex;
   flex-wrap: wrap;
-}
-.hero-section {
-  padding-top: 70px;
-  padding-bottom: 76px;
 }
 .main-title {
   font-weight: 700;
