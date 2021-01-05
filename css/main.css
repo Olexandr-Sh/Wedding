@@ -91,12 +91,7 @@ img {
   align-items: center;
 }
 .page-logo {
-  width: 40px;
-}
-@media screen and (min-width: 320px) {
-  .page-logo {
-    width: 60px;
-  }
+  width: 60px;
 }
 @media screen and (min-width: 576px) {
   .page-logo {
@@ -189,6 +184,9 @@ img {
   }
 }
 @media screen and (min-width: 1280px) {
+  .main-nav {
+    padding-left: 6%;
+  }
   .nav-btn {
     font-size: 18px;
     padding: 12px 22px;
@@ -197,25 +195,26 @@ img {
 .hero-section {
   background: #f1f1f2;
   color: #000;
-  padding-top: 70px;
-  padding-bottom: 76px;
+  padding-top: 30px;
+  padding-bottom: 36px;
 }
 .hero-flex {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .main-title {
   margin: 0;
   font-weight: 700;
-  line-height: 69px;
-  font-size: 32px;
+  line-height: normal;
+  font-size: 42px;
   padding-bottom: 36px;
 }
 .plain-text {
   margin: 0;
   font-weight: normal;
-  font-size: 20px;
-  padding-bottom: 52px;
+  font-size: 18px;
+  padding-bottom: 32px;
 }
 .main-btn {
   font-weight: normal;
@@ -227,36 +226,71 @@ img {
   border: none;
   border-radius: 5px;
   outline: none;
+  margin-bottom: 32px;
+  position: relative;
+}
+.main-btn:before,
+.main-btn:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.main-btn:before {
+  bottom: 2%;
+  left: 0;
+  border-left: 2px solid #fff;
+  border-top: 2px solid#fff;
+  border-radius: 5px;
+  transition: 0s ease opacity 0.8s, 0.2s ease width 0.4s, 0.2s ease height 0.6s;
+}
+.main-btn:after {
+  top: 3%;
+  right: 0;
+  border-right: 2px solid #f78e0e;
+  border-bottom: 2px solid #f78e0e;
+  border-radius: 5px;
+  transition: 0s ease opacity 0.4s, 0.2s ease width, 0.2s ease height 0.2s;
+}
+.main-btn:hover:before,
+.main-btn:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.main-btn:hover:before {
+  transition: 0s ease opacity 0s, 0.2s ease height, 0.2s ease width 0.2s;
+}
+.main-btn:hover:after {
+  transition: 0s ease opacity 0.4s, 0.2s ease height 0.4s, 0.2s ease width 0.6s;
 }
 .main-btn:hover {
-  color: #fff;
-  background: #f7941e;
-  padding: 23px 26px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
+  color: #ff5100;
+  background: #f8d9b6;
+  opacity: 0.8;
 }
-@media screen and (min-width: 320px) {
-  .hero-section {
-    padding-top: 30px;
-    padding-bottom: 36px;
-  }
-  .hero-flex {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  .main-title {
-    line-height: normal;
-    font-size: 42px;
-  }
-  .plain-text {
-    font-size: 18px;
-    padding-bottom: 32px;
-  }
-  .main-btn {
-    margin-bottom: 32px;
-  }
+.main-btn:focus:before,
+.main-btn:focus:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.main-btn:focus:before {
+  transition: 0s ease opacity 0s, 0.2s ease height, 0.2s ease width 0.2s;
+}
+.main-btn:focus:after {
+  transition: 0s ease opacity 0.4s, 0.2s ease height 0.4s, 0.2s ease width 0.6s;
+}
+.main-btn:focus {
+  color: #ff5100;
+  background: #f8d9b6;
+  opacity: 0.8;
+}
+.main-btn:active {
+  background: #fff;
+  color: #f14c00;
 }
 @media screen and (min-width: 576px) {
   .hero-flex {
@@ -279,11 +313,50 @@ img {
   .plain-text {
     font-size: 14px;
     padding-bottom: 32px;
-    padding-right: 18px;
+    padding-right: 28px;
+  }
+  .main-btn {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 20px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-title {
+    font-size: 36px;
+    padding-bottom: 26px;
+    padding-right: 26%;
+  }
+  .plain-text {
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-right: 16%;
+  }
+  .main-btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 22px 26px;
   }
 }
 @media screen and (min-width: 992px) {
+  .hero-section {
+    padding-top: 50px;
+    padding-bottom: 56px;
+  }
   .main-title {
     font-size: 46px;
+    line-height: 60px;
+    padding-bottom: 36px;
+    padding-right: 36%;
+  }
+  .plain-text {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 46px;
+  }
+  .main-btn {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
