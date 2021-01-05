@@ -228,6 +228,7 @@ img {
   outline: none;
   margin-bottom: 32px;
   position: relative;
+  cursor: pointer;
 }
 .main-btn:before,
 .main-btn:after {
@@ -377,4 +378,41 @@ img {
     margin: 0;
     width: 200px;
   }
+}
+.How-we-work-section {
+  background: #f1f1f2;
+}
+.How-we-work-title {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  font-weight: normal;
+}
+.learn-more-btn {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 36px;
+  color: #f7941e;
+  background: #fafafa;
+  padding: 12px 22px;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.learn-more-btn:hover {
+  color: #fff;
+  background: #f7941e;
+  box-shadow: 0 0 8px #f5a84a;
+}
+.learn-more-btn:focus {
+  color: #fff;
+  background: #f7941e;
+  box-shadow: 0 0 8px #f5a84a;
+}
+.learn-more-btn:active {
+  color: #fff;
+  background: #f7941e;
+  opacity: 0.5;
 }
