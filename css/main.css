@@ -360,3 +360,21 @@ img {
     line-height: 22px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    padding-top: 70px;
+    padding-bottom: 76px;
+  }
+  .main-title {
+    font-size: 56px;
+    line-height: 70px;
+  }
+  .plain-text {
+    padding-bottom: 52px;
+    padding-right: 28%;
+  }
+  .main-btn {
+    margin: 0;
+    width: 200px;
+  }
+}
