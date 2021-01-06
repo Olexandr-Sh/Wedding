@@ -317,6 +317,7 @@ img {
     padding-right: 28px;
   }
   .main-btn {
+    margin: 0;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
@@ -375,18 +376,23 @@ img {
     padding-right: 28%;
   }
   .main-btn {
-    margin: 0;
     width: 200px;
   }
 }
-.How-we-work-section {
+.how-we-work-section {
   background: #f1f1f2;
 }
-.How-we-work-title {
+.how-we-work-title {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 24px;
   font-weight: normal;
+}
+.how-we-work-plain-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 32px;
 }
 .learn-more-btn {
   font-size: 18px;
@@ -415,4 +421,25 @@ img {
   color: #fff;
   background: #f7941e;
   opacity: 0.5;
+}
+@media screen and (min-width: 576px) {
+  .how-we-work-title {
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+  .space-how-we-work-section {
+    padding-left: 8%;
+  }
+  .how-we-work-plain-text {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .thanks-picture {
+    height: 86%;
+  }
+  .learn-more-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
 }
