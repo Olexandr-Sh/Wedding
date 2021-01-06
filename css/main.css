@@ -429,7 +429,7 @@ img {
     padding-bottom: 14px;
   }
   .space-how-we-work-section {
-    padding-left: 8%;
+    padding-left: 7%;
   }
   .how-we-work-plain-text {
     font-size: 14px;
@@ -442,4 +442,16 @@ img {
     font-size: 14px;
     padding: 8px 18px;
   }
+}
+@media screen and (min-width: 768px) {
+  .how-we-work-title {
+    font-size: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .how-we-work-plain-text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
 }
