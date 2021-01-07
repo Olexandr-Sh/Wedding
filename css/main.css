@@ -19,7 +19,6 @@ body {
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts-gilroy/gilroy-light.eot");
   src: url("../fonts-gilroy/gilroy-light.woff") format("woff");
 }
 @font-face {
@@ -27,7 +26,6 @@ body {
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("../fonts-gilroy/gilroy-regular.eot");
   src: local("gilroy-regular"),
     url("../fonts-gilroy/gilroy-regular.woff") format("woff");
 }
@@ -36,7 +34,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts-gilroy/gilroy-medium.eot");
   src: local("gilroy-medium"),
     url("../fonts-gilroy/gilroy-medium.woff") format("woff");
 }
@@ -45,7 +42,6 @@ body {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts-gilroy/gilroy-bold.eot");
   src: local("gilroy-bold"),
     url("../fonts-gilroy/gilroy-bold.woff") format("woff");
 }
