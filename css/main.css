@@ -198,6 +198,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
 }
 .main-title {
   margin: 0;
@@ -495,4 +496,67 @@ img {
   .how-we-work-section {
     padding-bottom: 128px;
   }
+}
+.gifts-section {
+  background: #fff;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+.gifts-title {
+  margin: 0;
+  padding-bottom: 24px;
+  font-weight: normal;
+}
+.gifts-plain-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 32px;
+}
+.gifts-list {
+  width: 86%;
+}
+.gifts-for-the-holidays-title {
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.see-more-btn {
+  font-weight: normal;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 19px;
+  margin-bottom: 36px;
+}
+.see-more-btn:hover {
+  color: #f7941e;
+  background: #fafafa;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+.see-more-btn:focus {
+  color: #f7941e;
+  background: #fafafa;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+.see-more-btn:active {
+  background: #f7941e;
+}
+.see-more-list-item-link {
+  font-size: 18px;
+  color: #000;
+}
+.see-more-list-item-link:active {
+  color: #fff;
 }
