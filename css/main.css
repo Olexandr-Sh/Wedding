@@ -701,7 +701,6 @@ img {
   }
 }
 .contact-us-and-best-blogs {
-  padding-top: 30px;
   padding-bottom: 36px;
 }
 .contact-us-list {
@@ -711,4 +710,26 @@ img {
   align-items: center;
   text-align: center;
   color: #000;
+}
+.contact-us-list-item {
+  padding-bottom: 30px;
+}
+.get-started-title {
+  margin: 0;
+  padding-top: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.contact-us-plain-text {
+  margin: 0;
+  font-size: 24px;
+}
+.find-gift-btn {
+  font-size: 16px;
+  padding: 12px 18px;
+  margin-bottom: 8px;
+}
+.how-it-works-btn {
+  font-size: 16px;
+  padding: 12px 18px;
 }
