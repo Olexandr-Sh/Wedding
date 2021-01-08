@@ -503,6 +503,12 @@ img {
   padding-top: 30px;
   padding-bottom: 36px;
 }
+.gifts-flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
 .gifts-title {
   margin: 0;
   padding-bottom: 24px;
@@ -559,4 +565,34 @@ img {
 }
 .see-more-list-item-link:active {
   color: #fff;
+}
+@media screen and (min-width: 576px) {
+  .gifts-title {
+    font-size: 20px;
+    padding-bottom: 14px;
+  }
+  .gifts-plain-text {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .gifts-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gifts-image {
+    height: 62%;
+  }
+  .gifts-list-item {
+    margin: 0;
+    width: 50%;
+    flex-grow: 1;
+    padding-right: 10px;
+  }
+  .gifts-list-item:nth-child(2n) {
+    padding-right: 0;
+  }
+  .gifts-for-the-holidays-title {
+    font-size: 18px;
+  }
 }
