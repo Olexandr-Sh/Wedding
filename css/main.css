@@ -560,6 +560,7 @@ img {
   background: #f7941e;
 }
 .see-more-list-item-link {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #000;
 }
@@ -594,5 +595,21 @@ img {
   }
   .gifts-for-the-holidays-title {
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gifts-title {
+    font-size: 24px;
+    padding-bottom: 18px;
+    width: 100%;
+  }
+  .gifts-list-item:hover {
+    background: #fafafa;
+  }
+  .gifts-plain-text {
+    padding-bottom: 30px;
+  }
+  .gifts-for-the-holidays-title {
+    font-size: 20px;
   }
 }
