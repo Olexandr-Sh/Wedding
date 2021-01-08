@@ -700,3 +700,15 @@ img {
     font-size: 14px;
   }
 }
+.contact-us-and-best-blogs {
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+.contact-us-list {
+  background: #f7941e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
