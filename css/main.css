@@ -724,12 +724,28 @@ img {
   margin: 0;
   font-size: 24px;
 }
-.find-gift-btn {
+.contact-us-btn {
   font-size: 16px;
   padding: 12px 18px;
   margin-bottom: 8px;
+  background: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
 }
-.how-it-works-btn {
-  font-size: 16px;
-  padding: 12px 18px;
+.contact-us-btn:hover {
+  background: #231f20;
+  color: #fff;
+  border: 1px solid #231f20;
+}
+.contact-us-btn:focus {
+  background: #231f20;
+  color: #fff;
+  border: 1px solid #231f20;
+}
+.contact-us-btn:active {
+  background: #231f20;
+  color: #fff;
+  opacity: 0.8;
 }
