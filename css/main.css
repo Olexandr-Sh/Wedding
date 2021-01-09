@@ -940,3 +940,42 @@ img {
   background: #f7941e;
   color: #fff;
 }
+@media screen and (min-width: 576px) {
+  .best-blogs-title {
+    font-size: 20px;
+    padding-bottom: 14px;
+  }
+  .best-blogs-plain-text {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .best-blogs-read-more-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .best-blogs-list-item {
+    width: 50%;
+    justify-content: center;
+  }
+  .name-in-the-best-blogs-list-item {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+  .best-blogs-list-item-title {
+    font-size: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .best-blogs-list-item-btn {
+    margin: 0;
+  }
+  .information-list-item {
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .information-list-item:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+}
