@@ -979,3 +979,61 @@ img {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   }
 }
+@media screen and (min-width: 768px) {
+  .best-blogs-title {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .best-blogs-plain-text {
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .best-blogs-list-item {
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .first-part-of-best-blogs {
+    width: 40%;
+  }
+  .second-part-of-best-blogs {
+    width: 60%;
+  }
+  .name-in-the-best-blogs-list-item {
+    padding-left: 12%;
+  }
+  .best-blogs-list-item-title {
+    font-size: 24px;
+    text-align: start;
+    padding-right: 20%;
+    padding-left: 12%;
+  }
+  .best-blogs-list-item-btn {
+    margin-bottom: 0;
+    padding: 8px 0px;
+    margin-left: 12%;
+    font-size: 16px;
+    width: unset;
+    align-self: unset;
+  }
+  .information-list {
+    padding-top: 20px;
+    flex-direction: row;
+  }
+  .information-list-item {
+    margin-right: 10px;
+    align-items: flex-start;
+    text-align: start;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  .information-list-item:last-child {
+    margin-right: 0;
+  }
+  .information-list-item-plain-text {
+    text-align: justify;
+    font-size: 16px;
+  }
+  .information-list-item-btn {
+    font-size: 14px;
+  }
+}
