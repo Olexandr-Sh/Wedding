@@ -522,6 +522,9 @@ img {
   font-size: 18px;
   padding-bottom: 32px;
 }
+.gifts-list-item {
+  margin-bottom: 32px;
+}
 .gifts-for-the-holidays-title {
   margin: 0;
   padding-top: 32px;
@@ -533,11 +536,11 @@ img {
 .see-more-btn {
   font-weight: normal;
   outline: none;
-  border: none;
   background: none;
   cursor: pointer;
   line-height: 20px;
   margin-bottom: 36px;
+  padding: 8px 18px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #000;
@@ -584,7 +587,6 @@ img {
     height: 406px;
     width: 49%;
     margin-right: 10px;
-    margin-bottom: 32px;
     background: #fafafa;
   }
   .gifts-list-item:hover {
@@ -613,6 +615,7 @@ img {
   }
   .see-more-btn {
     font-size: 16px;
+    margin-bottom: 28px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -632,6 +635,7 @@ img {
     flex-wrap: nowrap;
   }
   .gifts-list-item {
+    margin-bottom: 0;
     align-items: flex-start;
     height: 386px;
     width: 24%;
@@ -649,8 +653,10 @@ img {
     font-size: 18px;
   }
   .see-more-btn {
-    margin-left: 14px;
-    margin-bottom: 24px;
+    margin-left: 18px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-bottom: 20px;
     line-height: 19px;
     font-size: 14px;
   }
@@ -670,7 +676,6 @@ img {
     line-height: 24px;
   }
   .gifts-list-item {
-    margin-bottom: 0;
     height: 436px;
     width: 24%;
   }
@@ -682,15 +687,13 @@ img {
   }
   .gifts-for-the-holidays-title {
     padding-top: 24px;
-    padding-bottom: 74px;
+    padding-bottom: 66px;
     padding-left: 24px;
     font-size: 20px;
   }
   .see-more-btn {
-    margin-left: 20px;
+    margin-left: 24px;
     margin-bottom: 24px;
-    line-height: 19px;
-    font-size: 14px;
   }
 }
 .sign-up-or-contact-us-section {
@@ -1034,6 +1037,8 @@ img {
     font-size: 16px;
   }
   .information-list-item-btn {
+    width: unset;
     font-size: 14px;
+    padding: 8px 0;
   }
 }
