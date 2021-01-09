@@ -186,7 +186,7 @@ img {
   }
   .nav-btn {
     font-size: 18px;
-    padding: 12px 22px;
+    padding: 14px 24px;
   }
 }
 .hero-section {
@@ -473,7 +473,8 @@ img {
     margin: 0;
     font-size: 18px;
     line-height: 24px;
-    padding: 22px 46px;
+    width: 200px;
+    height: 60px;
   }
   .how-we-work-section {
     padding-bottom: 128px;
