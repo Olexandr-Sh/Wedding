@@ -700,11 +700,10 @@ img {
     font-size: 14px;
   }
 }
-.contact-us-and-best-blogs {
-  padding-bottom: 36px;
+.sign-up-or-contact-us-section {
+  background: #f7941e;
 }
 .contact-us-list {
-  background: #f7941e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -748,4 +747,74 @@ img {
   background: #231f20;
   color: #fff;
   opacity: 0.8;
+}
+@media screen and (min-width: 576px) {
+  .get-started-title {
+    font-size: 20px;
+  }
+  .contact-us-plain-text {
+    font-size: 20px;
+  }
+  .contact-us-btn {
+    margin-bottom: 0;
+    margin-right: 14px;
+    padding: 16px 22px;
+  }
+  .contact-us-btn:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .get-started-title {
+    padding: 0;
+    font-size: 24px;
+  }
+  .contact-us-plain-text {
+    font-size: 24px;
+  }
+  .contact-us-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact-us-list-item {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .get-started-title {
+    font-size: 28px;
+  }
+  .contact-us-plain-text {
+    font-size: 28px;
+  }
+  .contact-us-btn {
+    margin-right: 16px;
+    padding: 16px 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contact-us-list {
+    padding-top: 82px;
+    padding-bottom: 70px;
+  }
+  .contact-us-list-item {
+    text-align: left;
+  }
+  .get-started-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .contact-us-plain-text {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .contact-us-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
