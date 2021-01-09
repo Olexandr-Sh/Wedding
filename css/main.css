@@ -374,7 +374,7 @@ img {
     padding-right: 28%;
   }
   .main-btn {
-    width: 200px;
+    padding: 22px 36px;
   }
 }
 .how-we-work-section {
@@ -472,9 +472,7 @@ img {
   .learn-more-btn {
     margin: 0;
     font-size: 18px;
-    line-height: 24px;
-    width: 200px;
-    height: 60px;
+    padding: 20px 46px;
   }
   .how-we-work-section {
     padding-bottom: 128px;
@@ -534,8 +532,6 @@ img {
   line-height: 24px;
 }
 .see-more-btn {
-  font-weight: normal;
-  outline: none;
   background: none;
   cursor: pointer;
   line-height: 20px;
@@ -808,10 +804,8 @@ img {
     line-height: 45px;
   }
   .contact-us-btn {
-    width: 200px;
-    height: 50px;
+    padding: 16px 34px;
     font-size: 18px;
-    line-height: 22px;
   }
 }
 .best-blogs-section {
@@ -1012,7 +1006,7 @@ img {
   }
   .best-blogs-list-item-btn {
     margin-bottom: 0;
-    padding: 8px 0px;
+    padding: 8px 2px;
     margin-left: 12%;
     font-size: 16px;
     width: unset;
@@ -1039,6 +1033,40 @@ img {
   .information-list-item-btn {
     width: unset;
     font-size: 14px;
-    padding: 8px 0;
+    padding: 8px 2px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .best-blogs-title {
+    font-size: 28px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+  }
+  .best-blogs-plain-text {
+    font-size: 18px;
+    padding-bottom: 60px;
+  }
+  .first-part-of-best-blogs {
+    width: 30%;
+  }
+  .second-part-of-best-blogs {
+    width: 70%;
+    padding-top: 44px;
+    padding-bottom: 24px;
+  }
+  .name-in-the-best-blogs-list-item {
+    padding-left: 14%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .best-blogs-list-item-title {
+    padding-left: 14%;
+    font-size: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .best-blogs-list-item-btn {
+    margin-left: 14%;
+    font-size: 18px;
   }
 }
