@@ -186,7 +186,7 @@ img {
   }
   .nav-btn {
     font-size: 18px;
-    padding: 12px 22px;
+    padding: 14px 24px;
   }
 }
 .hero-section {
@@ -473,7 +473,8 @@ img {
     margin: 0;
     font-size: 18px;
     line-height: 24px;
-    padding: 22px 46px;
+    width: 200px;
+    height: 60px;
   }
   .how-we-work-section {
     padding-bottom: 128px;
@@ -698,5 +699,123 @@ img {
   .see-more-list-item-link {
     line-height: 19px;
     font-size: 14px;
+  }
+}
+.sign-up-or-contact-us-section {
+  background: #f7941e;
+}
+.contact-us-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+.contact-us-list-item {
+  padding-bottom: 30px;
+}
+.get-started-title {
+  margin: 0;
+  padding-top: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.contact-us-plain-text {
+  margin: 0;
+  font-size: 24px;
+}
+.contact-us-btn {
+  font-size: 16px;
+  padding: 12px 18px;
+  margin-bottom: 8px;
+  background: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.contact-us-btn:hover {
+  background: #231f20;
+  color: #fff;
+  border: 1px solid #231f20;
+}
+.contact-us-btn:focus {
+  background: #231f20;
+  color: #fff;
+  border: 1px solid #231f20;
+}
+.contact-us-btn:active {
+  background: #231f20;
+  color: #fff;
+  opacity: 0.8;
+}
+@media screen and (min-width: 576px) {
+  .get-started-title {
+    font-size: 20px;
+  }
+  .contact-us-plain-text {
+    font-size: 20px;
+  }
+  .contact-us-btn {
+    margin-bottom: 0;
+    margin-right: 14px;
+    padding: 16px 22px;
+  }
+  .contact-us-btn:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .get-started-title {
+    padding: 0;
+    font-size: 24px;
+  }
+  .contact-us-plain-text {
+    font-size: 24px;
+  }
+  .contact-us-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact-us-list-item {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .get-started-title {
+    font-size: 28px;
+  }
+  .contact-us-plain-text {
+    font-size: 28px;
+  }
+  .contact-us-btn {
+    margin-right: 16px;
+    padding: 16px 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contact-us-list {
+    padding-top: 82px;
+    padding-bottom: 70px;
+  }
+  .contact-us-list-item {
+    text-align: left;
+  }
+  .get-started-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .contact-us-plain-text {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .contact-us-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
