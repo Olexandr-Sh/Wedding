@@ -547,7 +547,7 @@ img {
   border: 1px solid #f7941e;
   box-sizing: border-box;
   border-radius: 5px;
-  outline: none;
+  outline: transparent;
 }
 .see-more-btn:focus {
   color: #f7941e;
@@ -555,7 +555,7 @@ img {
   border: 1px solid #f7941e;
   box-sizing: border-box;
   border-radius: 5px;
-  outline: none;
+  outline: transparent;
 }
 .see-more-btn:active {
   background: #f7941e;
@@ -848,7 +848,7 @@ img {
 }
 .best-blogs-list-item-btn {
   font-weight: normal;
-  outline: none;
+  outline: transparent;
   border: none;
   background: none;
   cursor: pointer;
@@ -868,7 +868,7 @@ img {
   border: 1px solid #f7941e;
   box-sizing: border-box;
   border-radius: 5px;
-  outline: none;
+  outline: transparent;
 }
 .best-blogs-list-item-btn:focus {
   color: #f7941e;
@@ -876,7 +876,7 @@ img {
   border: 1px solid #f7941e;
   box-sizing: border-box;
   border-radius: 5px;
-  outline: none;
+  outline: transparent;
 }
 .best-blogs-list-item-btn:active {
   background: #f7941e;
@@ -885,6 +885,7 @@ img {
 .information-list {
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 .information-list-item {
   display: flex;
@@ -1068,5 +1069,74 @@ img {
   .best-blogs-list-item-btn {
     margin-left: 14%;
     font-size: 18px;
+  }
+  .information-list {
+    padding-bottom: 60px;
+  }
+  .information-list-item {
+    margin-right: 20px;
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .best-blogs-title {
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 88px;
+    padding-bottom: 24px;
+  }
+  .best-blogs-plain-text {
+    line-height: 24px;
+    padding-bottom: 72px;
+  }
+  .best-blogs-read-more-list {
+    width: 100%;
+  }
+  .first-part-of-best-blogs {
+    width: unset;
+  }
+  .second-part-of-best-blogs {
+    width: 66%;
+    justify-content: unset;
+    padding-top: 64px;
+    padding-bottom: 42px;
+  }
+  .name-in-the-best-blogs-list-item {
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 28px;
+  }
+  .best-blogs-list-item-title {
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 52px;
+    padding-right: 16%;
+  }
+  .best-blogs-list-item-btn {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .information-list {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .information-list-item {
+    margin-right: 30px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 50px;
+    padding-left: 48px;
+  }
+  .information-list-item-title {
+    font-size: 24px;
+    line-height: 34px;
+    padding-top: 0;
+  }
+  .information-list-item-plain-text {
+    text-align: unset;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 54px;
   }
 }
