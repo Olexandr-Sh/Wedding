@@ -120,6 +120,7 @@ img {
 @media screen and (min-width: 576px) {
   .main-nav {
     display: flex;
+    padding-left: 6%;
   }
   .main.nav-list {
     display: flex;
@@ -198,6 +199,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
 }
 .main-title {
   margin: 0;
@@ -494,5 +496,207 @@ img {
   }
   .how-we-work-section {
     padding-bottom: 128px;
+  }
+}
+.gifts-section {
+  background: #fff;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+.gifts-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.gifts-title {
+  margin: 0;
+  padding-bottom: 24px;
+  font-weight: normal;
+}
+.gifts-plain-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 32px;
+}
+.gifts-for-the-holidays-title {
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.see-more-btn {
+  font-weight: normal;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 19px;
+  margin-bottom: 36px;
+}
+.see-more-btn:hover {
+  color: #f7941e;
+  background: #fafafa;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+.see-more-btn:focus {
+  color: #f7941e;
+  background: #fafafa;
+  border: 1px solid #f7941e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+.see-more-btn:active {
+  background: #f7941e;
+}
+.see-more-list-item-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+.see-more-list-item-link:active {
+  color: #fff;
+}
+@media screen and (min-width: 576px) {
+  .gifts-title {
+    font-size: 20px;
+    padding-bottom: 14px;
+  }
+  .gifts-plain-text {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .gifts-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style-type: none;
+  }
+  .gifts-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 406px;
+    width: 49%;
+    margin-right: 10px;
+    margin-bottom: 32px;
+    background: #fafafa;
+  }
+  .gifts-list-item:hover {
+    background: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+  .gifts-list-item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .gifts-for-the-holidays-title {
+    padding-top: 18px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gifts-title {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .gifts-plain-text {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .gifts-for-the-holidays-title {
+    font-size: 20px;
+  }
+  .see-more-list-item-link {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gifts-section {
+    padding-top: 66px;
+    padding-bottom: 100px;
+  }
+  .gifts-title {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  .gifts-plain-text {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  .gifts-list {
+    flex-wrap: nowrap;
+  }
+  .gifts-list-item {
+    align-items: flex-start;
+    height: 386px;
+    width: 24%;
+  }
+  .gifts-list-item:nth-child(1n) {
+    margin-right: 20px;
+  }
+  .gifts-list-item:last-child {
+    margin-right: 0;
+  }
+  .gifts-for-the-holidays-title {
+    padding-top: 18px;
+    padding-bottom: 74px;
+    padding-left: 18px;
+    font-size: 18px;
+  }
+  .see-more-btn {
+    margin-left: 14px;
+    margin-bottom: 24px;
+  }
+  .see-more-list-item-link {
+    line-height: 19px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gifts-section {
+    padding-top: 96px;
+    padding-bottom: 138px;
+  }
+  .gifts-title {
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 24px;
+  }
+  .gifts-plain-text {
+    padding-bottom: 64px;
+    line-height: 24px;
+  }
+  .gifts-list-item {
+    margin-bottom: 0;
+    height: 436px;
+    width: 24%;
+  }
+  .gifts-list-item:nth-child(1n) {
+    margin-right: 30px;
+  }
+  .gifts-list-item:last-child {
+    margin-right: 0;
+  }
+  .gifts-for-the-holidays-title {
+    padding-top: 24px;
+    padding-bottom: 74px;
+    padding-left: 24px;
+    font-size: 20px;
+  }
+  .see-more-btn {
+    margin-left: 20px;
+    margin-bottom: 24px;
+  }
+  .see-more-list-item-link {
+    line-height: 19px;
+    font-size: 14px;
   }
 }
