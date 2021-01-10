@@ -1140,3 +1140,90 @@ img {
     padding-bottom: 54px;
   }
 }
+.footer-section {
+  background: #fafafa;
+}
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-footer-list-item {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.first-footer-list-item {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.horizontal-rule {
+  margin: 0;
+  height: 1px;
+  width: 100%;
+  color: #000;
+}
+.list-item-logo {
+  width: 100%;
+}
+.first-footer-list-item-link {
+  font-weight: 700;
+  color: #000;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.first-footer-list-item-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+.first-footer-list-item-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.first-footer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-icon-link-midle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-icon-link {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.style-of-icons {
+  color: #000;
+  font-size: 40px;
+}
+.style-of-icons:hover {
+  color: #f14c00;
+}
+.style-of-icons:focus {
+  color: #f14c00;
+}
+.style-of-icons:active {
+  color: #fc9463;
+}
+.privacy {
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 14px;
+}
+.privacy:last-child {
+  padding-right: 0;
+}
