@@ -1227,3 +1227,28 @@ img {
 .privacy:last-child {
   padding-right: 0;
 }
+@media screen and (min-width: 768px) {
+  .first-footer-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .first-footer-list-item {
+    width: 20%;
+  }
+  .list-item-logo {
+    width: 20%;
+  }
+  .footer-icons {
+    flex-wrap: nowrap;
+  }
+  .footer-icon-link {
+    width: 20%;
+  }
+  .footer-icon-link-midle {
+    width: 20%;
+  }
+  .first-footer-list-item-link {
+    font-size: 16px;
+  }
+}
