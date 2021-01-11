@@ -91,7 +91,7 @@ img {
 }
 @media screen and (min-width: 576px) {
   .page-logo {
-    width: 40px;
+    width: 46px;
   }
 }
 .main-nav {
@@ -375,6 +375,9 @@ img {
   }
   .main-btn {
     padding: 22px 36px;
+  }
+  .happy-couple-image {
+    padding-left: 30px;
   }
 }
 .how-we-work-section {
@@ -1142,6 +1145,7 @@ img {
 }
 .footer-section {
   background: #fafafa;
+  padding-bottom: 36px;
 }
 .footer-wrap {
   display: flex;
@@ -1154,6 +1158,12 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.main-footer-list-item:last-child {
+  padding-bottom: 0;
+}
+.footer-title {
+  margin: 0;
+}
 .first-footer-list-item {
   display: flex;
   justify-content: center;
@@ -1165,13 +1175,12 @@ img {
   margin: 0;
   height: 1px;
   width: 100%;
-  color: #000;
+  background: #000;
 }
 .list-item-logo {
   width: 100%;
 }
 .first-footer-list-item-link {
-  font-weight: 700;
   color: #000;
   font-size: 20px;
   padding: 10px 10px;
@@ -1185,6 +1194,10 @@ img {
   transition: width 0.3s;
 }
 .first-footer-list-item-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.first-footer-list-item-link:focus::after {
   width: 100%;
   transition: width 0.3s;
 }
@@ -1250,5 +1263,79 @@ img {
   }
   .first-footer-list-item-link {
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer-section {
+    padding-top: 80px;
+  }
+  .main-footer-list-item {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 34px;
+  }
+  .first-footer-list {
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: unset;
+  }
+  .home-about-link {
+    padding-right: 60px;
+  }
+  .home-about-link:nth-child(2) {
+    padding-right: 0;
+  }
+  .first-footer-list-item {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: unset;
+  }
+  .horizontal-rule {
+    width: 94%;
+  }
+  .footer-icons {
+    width: unset;
+    padding-top: 22px;
+  }
+  .footer-icon-link {
+    margin-right: 26px;
+  }
+  .footer-icon-link:last-child {
+    margin-right: 0;
+  }
+  .footer-icon-link-midle {
+    margin-right: 26px;
+  }
+  .privacy {
+    padding-top: 38px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-section {
+    padding-top: 106px;
+  }
+  .between-width {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .between-width:first-child {
+    padding-right: 62px;
+  }
+  .between-width:last-child {
+    padding-left: 34px;
+  }
+  .list-item-logo {
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+  .first-footer-list-item-link {
+    font-size: 14px;
+  }
+  .horizontal-rule {
+    width: 84%;
   }
 }
