@@ -321,6 +321,9 @@ img {
     line-height: 18px;
     padding: 20px 22px;
   }
+  .happy-couple-image {
+    padding-left: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   .main-title {
