@@ -53,9 +53,103 @@
             </p>
             <button class="main-btn">FIND GIFT NOW</button>
           </div>
-          <div class="hero-col happy-couple-image">
-            <img src="./images/happy_couple.webp" alt="happy couple" />
-          </div>
+          <picture class="hero-col happy-couple-image">
+            <source
+              srcset="
+                ./images/happy-couple-1x.webp 1x,
+                ./images/happy-couple-2x.webp 2x
+              "
+              type="image/webp"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-1x.jpg 1x,
+                ./images/happy-couple-2x.jpg 2x
+              "
+              type="image/jpeg"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(992)445x433.webp    1x,
+                ./images/happy-couple-(992)890x867-2x.webp 2x
+              "
+              type="image/webp"
+              media="(min-width: 992px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(992)445x433.jpg    1x,
+                ./images/happy-couple-(992)890x867-2x.jpg 2x
+              "
+              type="image/jpeg"
+              media="(min-width: 992px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(768)325x316.webp    1x,
+                ./images/happy-couple-(768)650x633-2x.webp 2x
+              "
+              type="image/webp"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(768)325x316.jpg    1x,
+                ./images/happy-couple-(768)650x633-2x.jpg 2x
+              "
+              type="image/jpeg"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(576)255x248.webp    1x,
+                ./images/happy-couple-(576)510x297-2x.webp 2x
+              "
+              type="image/webp"
+              media="(min-width: 576px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(576)255x248.jpg    1x,
+                ./images/happy-couple-(576)510x297-2x.jpg 2x
+              "
+              type="image/jpeg"
+              media="(min-width: 576px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(320)280x273.webp    1x,
+                ./images/happy-couple-(320)560x545-2x.webp 2x
+              "
+              type="image/webp"
+              media="(min-width: 320px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-(320)280x273.jpg    1x,
+                ./images/happy-couple-(320)560x545-2x.jpg 2x
+              "
+              type="image/jpeg"
+              media="(min-width: 320px)"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-1x.webp 1x,
+                ./images/happy-couple-2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./images/happy-couple-1x.jpg 1x,
+                ./images/happy-couple-2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+            <img src="./images/happy-couple-1x.jpg" alt="happy couple" />
+          </picture>
         </div>
       </section>
       <section class="how-we-work-section">
@@ -63,7 +157,7 @@
           <div class="hero-col">
             <img
               class="thanks-picture"
-              src="./images/black_card.webp"
+              src="./images/black-card-1x.jpg"
               alt="black card with the word Thanks"
             />
           </div>
