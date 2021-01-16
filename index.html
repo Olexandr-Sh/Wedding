@@ -524,10 +524,79 @@
               </a>
             </li>
             <li class="gifts-list-item">
-              <img
-                src="./images/christmas-image-1x.jpg"
-                alt="photo of branches of the christmas tree with toys"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/christmas-image-1x.webp 1x,
+                    ./images/christmas-image-2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1280px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-1x.jpg 1x,
+                    ./images/christmas-image-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(992)217x217.webp    1x,
+                    ./images/christmas-image-(992)434x434-2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 992px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(992)217x217.jpg    1x,
+                    ./images/christmas-image-(992)434x434-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 992px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(768)280x280.webp    1x,
+                    ./images/christmas-image-(768)560x560-2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(768)280x280.jpg    1x,
+                    ./images/christmas-image-(768)560x560-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(576)250x250.webp    1x,
+                    ./images/christmas-image-(576)500x500-2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 576px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-(576)250x250.jpg    1x,
+                    ./images/christmas-image-(576)500x500-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 576px)" />
+                <source
+                  srcset="
+                    ./images/christmas-image-1x.webp 1x,
+                    ./images/christmas-image-2x.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/christmas-image-1x.jpg 1x,
+                    ./images/christmas-image-2x.jpg 2x
+                  "
+                  type="image/jpeg" />
+                <img
+                  src="./images/christmas-image-1x.jpg"
+                  alt="photo of branches of the christmas tree with toys"
+              /></picture>
               <h3 class="gifts-for-the-holidays-title">Christmas</h3>
               <a
                 href="#"
