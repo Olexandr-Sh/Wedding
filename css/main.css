@@ -838,6 +838,9 @@ img {
   background: #231f20;
   color: #fff;
 }
+.read-more-picture {
+  display: flex;
+}
 .best-blogs-list-item {
   display: flex;
   flex-direction: column;
